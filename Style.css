@@ -1,0 +1,40 @@
+@import url('http://hello.myfonts.net/count/2aeea6');
+@font-face {font-family: 'Alana';src: url('Fonts/2AEEA6_0_0.eot');src: url('Fonts/2AEEA6_0_0.eot?#iefix') format('embedded-opentype'),url('Fonts/2AEEA6_0_0.woff') format('woff'),url('Fonts/2AEEA6_0_0.ttf') format('truetype');}
+@font-face {font-family: 'Avenir Light';src: url('Fonts/2AEEA6_1_0.eot');src: url('Fonts/2AEEA6_1_0.eot?#iefix') format('embedded-opentype'),url('Fonts/2AEEA6_1_0.woff') format('woff'),url('Fonts/2AEEA6_1_0.ttf') format('truetype');}
+@font-face {font-family: 'Haity'; src: url('Fonts/Haityfont.eot');src: url('Fonts/Haityfont.eot?#iefix') format('embedded-opentype'),url('Fonts/Haityfont.woff') format('woff'),url('Fonts/Haityfont.ttf') format('truetype');}
+body {
+	width: 90%;
+	margin: auto;
+	font-family: 'Avenir Light', Avenir, sans-serif;
+	font-size: 2.4vh;
+	line-height: 140%;}
+header {
+	height: 20vh;
+ 	margin-left: 35%; margin-right: 35%; margin-bottom: 0%;}
+#logo {
+	max-width: 100%;	max-height: 100%;}
+div {
+	height: 70vh;}
+.cursive {
+	font-family: 'Alana', cursive; color: #AAAAAA;}
+table {
+	height: 10vh;
+	margin-left: 11.5%; margin-right: 10%;
+	width: 80%;
+	text-align: center;
+	font-family: 'Haity', cursive; font-size: 2.7vh; color: #AAAAAA;}
+#highlighted {
+	color: #888888;}
+a {
+	text-decoration: none; color: inherit;}
+@media only screen and (orientation: portrait) {
+	header {
+		margin-left: 20%; margin-right: 20%; margin-bottom: 0%;
+	}
+	#logo {
+		max-height: 150%;
+	}
+	table {
+		width: 90%; margin: 0 auto;
+	}
+}

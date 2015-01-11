@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>nest wedding photography</title>
+		<link rel="icon" type="image/png" href="Icon.png" />
+		<link href="Style.css" type="text/css" rel="stylesheet" />
+		<style type="text/css">
+			div {
+				margin-top: 0; margin-bottom: 0;}
+			p {
+				margin-top: 0; margin-bottom: 0; padding-top: 30px; padding-bottom: 20px; font-size: 4vh;}
+			form {
+				margin-left: 10%; margin-right: 10%;	 margin-top: 0; margin-bottom: 0;}
+			input, textarea {
+				font-family: 'Avenir Light', Avenir, sans-serif; font-size: 100%;
+				width: 90%;
+				border-style: solid; border-color: lightgrey; border-width: 1px;
+				padding-top: 12px; padding-bottom: 12px; padding-left: 12px;
+				margin-top: 0; margin-bottom: 0;}
+			input[type=text], input[type=email] {
+				height: 7vh;}
+			p.filler {
+				padding-top: 0px; padding-bottom: 0px; height: 3vh;}
+			input:focus, textarea:focus {
+				border-color: darkgrey; border-width: 1px; border-style: solid; outline: 0;}
+			input[type=submit] {
+				margin-top: 4vh;
+				background-color: transparent;
+				color: #AAAAAA;
+				border: none;
+				width: 15%;
+				cursor: pointer;}
+			textarea {
+				resize: none;
+				float: right;
+				margin-top: 0; margin-bottom: 0;
+				height: 36.7vh;}	
+			img.glyph {
+				opacity: 0.5;}
+			#left, #right {
+			  float: left; width: 50%;}
+		</style>
+	</head>
+	
+	<body>
+		<header><center><img src="Logo.png" id="logo"/></center></header>
+
+		<div id="contact">
+			<br>
+			<center><p class="cursive">I can&rsquo;t wait to meet you!</p></center>
+			<br>
+			<form action="http://forms.brace.io/elissa.loring@icloud.com" method="post">
+				<span id="left">
+					<input required type="text" placeholder="BRIDE & GROOM NAME" name="Names"/>
+					<p class="filler"></p>
+					<input required type="email" placeholder="EMAIL ADDRESS" name="Email"/>
+					<p class="filler"></p>
+					<input type="text" placeholder="WEDDING DATE" name="Date"/>
+					<p class="filler"></p>
+					<input type="text" placeholder="WEDDING VENUES" name="Venues"/>
+				</span>
+				 <span id="right">
+					<textarea type="textarea" placeholder="TELL ME A LITTLE ABOUT YOURSELVES..." name="About"></textarea><br><br>
+				</span>
+				<input type="hidden" name="_next" value="//www.nestweddingphotography.com/Thanks.html"/><br>
+				<center>
+					<img class="glyph" src="Contact/glyph-left.png"/>
+					<input type="submit" value="S U B M I T"/>
+					<img class="glyph" src="Contact/glyph-right.png"/>	
+				</center>
+			</form>
+		</div>
+
+		<nav><table><tr>
+			<td><a href="index.html">Home</a></td>
+			<td><a href="Gallery.html">Gallery</a></td>
+			<td><a href="About.html">About</a></td>
+			<td><a href="Invest.html">Invest</a></td>
+			<td><a href="Contact.html" id="highlighted">Contact</a></td>
+		</tr></table></nav>
+		<script>
+			if (navigator.appVersion.indexOf("Win")!=-1) {
+				document.getElementsByTagName("table")[0].style["font-family"] = "Alana";
+				document.getElementsByTagName("table")[0].style["font-size"] = "3.5vh";
+			}
+		</script>
+	</body>
+</html>

@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>nest wedding photography</title>
+		<link rel="icon" type="image/png" href="Icon.png"/>
+		<link href="Style.css" type="text/css" rel="stylesheet"/>
+		<style type="text/css">
+			#about {
+				text-align:  justify;	}
+			#welcome {
+				margin-top: 0; margin-bottom: 0; margin-left: 7%;
+				line-height: 2vh;
+				font-size: 290%; line-height: 6vh;
+				padding-bottom: 0;}
+			#image {
+				float: right;
+				width: 33vh; height: 33vh;
+				margin-top: -30; margin-right: 20;
+				padding: 15; padding-right: 0; padding-bottom: 2vh;}
+			#firstline {font-size: 5vh;}
+			#secondline {font-size: 4.5vh; margin-left: 15%;}
+			#thirdline {font-size: 4vh; margin-left: 30%;	}
+			img.me {
+				border-radius: 17px;
+				width: 35vh;
+				height: 35vh;
+				transition: opacity 1s ease-in-out;
+				position: absolute;}
+		</style>
+	</head>
+	
+	<body>
+		<header><center><img src="Logo.png" id="logo"/></center></header>
+
+		<div id="about">
+			<p id="welcome" class="cursive">
+				<span id="image"> 
+					<img src="About/1.jpg" id="image1" class="me"/>
+					<img src="" id="image2" class="me" style="opacity: 0;"/></span>
+				<script src="Slideshow.js"></script>
+				<script type="text/javascript">var directory = "About/"; var numberofpictures = 3</script>
+	 			<span id="firstline">Hello and welcome!</span><br>
+				<span id="secondline">I am Elissa Loring,</span><br>
+				<span id="thirdline">creator and artist of nest.</span></p>
+ 			<p>Thank you for stopping by my site! I am thrilled that you are here and hope you stick around for a while. My name is Elissa and I am a Houston based
+	 			wedding photographer. I have a passion for people, love, light, natural surroundings and inner beauty &ndash; that&rsquo;s why I love my job! It is truly an honor 					and privilege to help capture the love stories of so many inspirational couples through the art of exquisite photography.</p>	
+			<p>I am a born and bred Houstonian and <em>love</em> my hometown. I live with my brilliant husband, Marius, and our two adorable spaniels, Bella and Sassy, the 				lights of my life. As a recent bride myself, I completely understand how important it is to capture all the wonderful moments and memories of your big day: be it the 					tear running down your father&rsquo;s face when he sees you in your dress for the first time, the antique handkerchief embroidered by your grandmother that you 					cling to during the ceremony or the smiles of sheer bliss that you just can&rsquo;t contain. I work tirelessly to make sure you feel confident in front of the camera and 				look radiant in your pictures. I am devoted to capturing moments as they naturally unfold, letting you enjoy your day without someone orchestrating your every move. 				From English manor houses to the open countryside, bustling cities or cathedral-like churches, I have photographed numerous weddings of all styles. I would be 						honored to have the responsibility of capturing all the memories from your wedding day and help you relive them for a lifetime.</p>
+			<p>I hope to meet you soon!</p>
+		</div>
+		
+		<nav><table><tr>
+			<td><a href="index.html">Home</a></td>
+			<td><a href="Gallery.html">Gallery</a></td>
+			<td><a href="About.html" id="highlighted">About</a></td>
+			<td><a href="Invest.html">Invest</a></td>
+			<td><a href="Contact.html">Contact</a></td>
+		</tr></table></nav>
+		<script>
+			if (navigator.appVersion.indexOf("Win")!=-1) {
+				document.getElementsByTagName("table")[0].style["font-family"] = "Alana";
+				document.getElementsByTagName("table")[0].style["font-size"] = "3.5vh";
+			}
+		</script>
+	</body>
+</html>

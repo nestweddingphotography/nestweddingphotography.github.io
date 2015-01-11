@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>nest wedding photography</title>
+		<link rel="icon" type="image/png" href="Icon.png" />
+		<link href="Style.css" type="text/css" rel="stylesheet" />
+		<style type="text/css">
+			div {
+				position: relative;
+				margin-left: 15vw; margin-right: 15.5%;}
+			img.slideshow {
+				outline: 2px solid white; outline-offset: -10px;
+				max-width: 100%; max-height: 100%;
+		 		transition: opacity 1s ease-in-out;
+				position: absolute;}
+			@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+				div {	margin-left: 10vw; margin-right: 10vw;}}
+		</style> 
+	</head>
+	
+	<body>
+		<header><center><img src="Logo.png" id="logo"/></center></header>
+
+		<div>
+			<img src="Gallery/1.jpg" id="image1" class="slideshow"/>
+			<img src="" id="image2" class="slideshow" style="opacity: 0;"/>
+			<script type="text/javascript" src="Slideshow.js"></script>
+			<script type="text/javascript">var directory = "Gallery/"; var numberofpictures = 52</script>
+		</div>
+
+		<nav><table><tr>
+			<td><a href="index.html">Home</a></td>
+			<td><a href="Gallery.html" id="highlighted">Gallery</a></td>
+			<td><a href="About.html">About</a></td>
+			<td><a href="Invest.html">Invest</a></td>
+			<td><a href="Contact.html">Contact</a></td>
+		</tr></table></nav>
+		<script>
+			if (navigator.appVersion.indexOf("Win")!=-1) {
+				document.getElementsByTagName("table")[0].style["font-family"] = "Alana";
+				document.getElementsByTagName("table")[0].style["font-size"] = "3.5vh";
+			}
+		</script>
+	</body>
+</html>
